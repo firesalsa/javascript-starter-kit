@@ -2,13 +2,13 @@
   "name": "javascript-starter-kit",
   "version": "1.0.0",
   "description": "JavaScript starter kit",
-  "scripts": {},
+  "scripts": {
+    "start": "node build/server.js",
+    "share": "lt --port 3000"
+  },
   "author": "Brian Thompson",
   "license": "MIT",
   "repository": "https://github.com/firesalsa/javascript-starter-kit",
-  "scripts": {
-    "start": "node build/server.js"
-  },
   "dependencies": {
     "whatwg-fetch": "1.0.0"
   },
