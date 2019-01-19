@@ -6,6 +6,9 @@
   "author": "Brian Thompson",
   "license": "MIT",
   "repository": "https://github.com/firesalsa/javascript-starter-kit",
+  "scripts": {
+    "start": "node build/server.js"
+  },
   "dependencies": {
     "whatwg-fetch": "1.0.0"
   },
