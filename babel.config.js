@@ -19,6 +19,7 @@ module.exports = function(api) {
   // Cache the config separately for each environment
   api.cache.using(() => process.env.NODE_ENV);
 
+  // TODO replace with logger
   console.log("Running in the " + api.env() + " environment");
 
   return {

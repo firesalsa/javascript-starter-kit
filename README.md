@@ -31,3 +31,16 @@ To run scripts in parallel, use `npm-run-all`.
 ## Babel
 
 [Read about how to use Babel 7](https://babeljs.io/docs/en/usage).
+
+## Rollup
+
+[Read more about the Rollup bundler](https://rollupjs.org/guide/en#overview).
+
+## ESLint
+
+[Read about what each rule does](https://eslint.org/docs/rules/).  Set ESLint up
+however you'd like by editing the ".eslintrc.json" file.  
+
+* 0 ignores the rule
+* 1 sets rule warnings
+* 2 sets rule errors
