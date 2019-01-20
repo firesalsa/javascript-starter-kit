@@ -65,3 +65,6 @@ typings/
 
 # Babel
 lib/
+
+# Bundled
+dist/

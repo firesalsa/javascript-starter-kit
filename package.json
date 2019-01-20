@@ -6,7 +6,8 @@
     "start": "node build/server.js",
     "share": "npm-run-all --parallel start localtunnel",
     "localtunnel": "lt --port 3000",
-    "transpile": "babel build --out-dir lib"
+    "transpile": "babel build --out-dir lib",
+    "roll": "rollup -c --environment INCLUDE_DEPS,BUILD:production"
   },
   "author": "Brian Thompson",
   "license": "MIT",
@@ -19,6 +20,7 @@
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "@babel/register": "^7.0.0",
+    "@henrikjoreteg/rollup-plugin-css": "^2.0.0",
     "chai": "^4.2.0",
     "chalk": "^2.4.2",
     "cheerio": "^0.22.0",
@@ -39,6 +41,7 @@
     "npm-run-all": "^4.1.5",
     "numeral": "^2.0.6",
     "rimraf": "^2.6.3",
+    "rollup": "^1.1.1",
     "style-loader": "^0.23.1",
     "webpack": "^4.28.4",
     "webpack-dev-middleware": "^3.5.1",
