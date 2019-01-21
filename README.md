@@ -1,4 +1,6 @@
 # Javascript Starter Kit
+[![Build Status](https://travis-ci.org/firesalsa/javascript-starter-kit.svg?branch=master)](https://travis-ci.org/firesalsa/javascript-starter-kit)
+
 
 This README serves as a guide for what you can expect from the Javascript Starter Kit.
 
