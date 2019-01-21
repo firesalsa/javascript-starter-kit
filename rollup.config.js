@@ -3,7 +3,7 @@ import css from "@henrikjoreteg/rollup-plugin-css";
 const IS_PROD = process.env.NODE_ENV === "production";
 
 module.exports = {
-  input: "build/server.js",
+  input: "lib/server.js",
   output: {
     file: "./dist/bundle.js",
     format: "cjs"

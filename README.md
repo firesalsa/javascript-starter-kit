@@ -44,3 +44,8 @@ however you'd like by editing the ".eslintrc.json" file.
 * 0 ignores the rule
 * 1 sets rule warnings
 * 2 sets rule errors
+
+## Testing
+
+[Read more about Ava](https://github.com/avajs/ava) and how you can write unit
+tests with it.
